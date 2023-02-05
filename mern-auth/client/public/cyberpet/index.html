@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1 id="heading">CyberPet</h1>
+<!--
+    <p id="health">health</p>  
+    <p id="hunger">hunger</p>
+    <p id="thirst">thirst</p>
+    <p id="cleanliness">cleanliness</p>
+    <p id="happiness">happiness</p> -->
+
+
+    <div id="hi1"><p id="hi"></p></div>
+
+     <div id="main">
+
+        <div id="render">
+            <p id="name"> </p>
+            <p id="type"> </p>
+            <p id="health">health</p>
+            <!-- <progress id = "bar" value="100" max ="100"></progress> -->
+            <p id="hunger">hunger</p>
+            <p id="thirst">thirst</p>
+            <p id="cleanliness">cleanliness</p>
+            <p id="happiness">happiness</p>
+        </div>
+      
+        <img id = "pics" src="fox.jpeg"alt="cat pic">
+
+     </div>    
+            <!-- <div id="choosepet">
+                <p>Choose your pet</p>
+            </div> -->
+        <!-- left and right button -->
+
+        <!-- on click events for the buttons -->
+   
+       
+     <div id="diffpet">
+            
+                <select  id= "petType" name="ref">
+                 <option value="">(select one)</option>
+                 <option value="Cat">Cat</option>
+                 <option value="Dog">Dog</option>
+                 <!-- <option value="Rabbit">Rabbit</option>
+                 <option value="Monkey">Monkey</option>
+                 <option value="Donkey">Donkey</option> -->
+                 <option value="Cybercat">CyberCat</option>
+            
+     </div>
+        
+     <div class="input">
+            <input id="input" type="text" placeholder="Type Your Pet Name...">
+            
+        
+        
+     </div>
+     <div id="submitbutton">
+        <input type="button" id="submit" value="Start" />
+        <input type="button" id="reset" value="Reset"/>
+     <!-- <button id="submit">START</button> -->
+    </div>
+<!-- /////second image which you can cycle through -->
+
+
+        <!-- <div id="drink">Add Drink</div> -->
+        <div id ="playbuttons" >
+            <button id="feed">Feed</button>
+            <button id="play">Play</button>
+            <button id="clean">Clean</button>
+            <button id="drink">Drink</button>
+        </div>
+    
+
+    <script src="pet.js"></script>
+
+
+</body>
+</html>
